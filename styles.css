@@ -60,21 +60,9 @@ nav .logo a {
   color: var(--primary-color);
   transition: 0.3s;
 }
+
 nav .logo a:hover {
   color: var(--primary-color-dark);
-}
-
-nav .checkbox {
-  display: none;
-}
-
-nav input {
-  display: none;
-}
-nav .checkbox i {
-  font-size: 2rem;
-  color: var(--primary-color);
-  cursor: pointer;
 }
 
 ul {
@@ -153,12 +141,27 @@ ul li a:hover {
   font-weight: 600;
 }
 
+.descricao span {
+  font-weight: 600;
+}
+
 /* Personaliza a parte do texto das páginas */
 
 .descricao {
   line-height: 1.5rem;
   color: var(--text-light);
   margin-bottom: 2rem;
+}
+
+/* Personaliza o link para o WhatsApp presente na página de contato */
+
+.descricao a {
+  color: var(--text-dark);
+  transition: 0.3s;
+}
+
+.descricao a:hover {
+  color: var(--primary-color-dark);
 }
 
 /* Utiliza o display flex para formatar a posição dos botões */
@@ -218,6 +221,21 @@ ul li a:hover {
   border-radius: 100%;
 }
 
+/* Estilos para o ícone de menu (o "hamburguer") */
+
+.menu-icon {
+  display: none;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.menu-icon .bar {
+  height: 4px;
+  width: 30px;
+  background-color: var(--text-dark);
+  margin: 6px 0;
+}
+
 /* Personalização do formulário */
 
 label {
@@ -248,9 +266,23 @@ input[type="submit"]:hover {
 }
 
 /* Método encontrado para tornar o site responsivo para larguras menores que 750px */
-@media (width < 750px) {
-  nav .checkbox {
+@media (max-width: 750px) {
+  .menu-icon {
     display: block;
+  }
+
+  .menuprincipal ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 85px;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+  }
+
+  .menuprincipal ul.show {
+    display: flex;
   }
 
   ul {
@@ -263,14 +295,6 @@ input[type="submit"]:hover {
     flex-direction: column;
     justify-content: center;
     gap: 3rem;
-  }
-
-  nav #check:checked ~ ul {
-    left: 0;
-  }
-
-  ul li a {
-    font-size: 1.25rem;
   }
 
   .container {

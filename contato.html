@@ -12,11 +12,12 @@
     <!-- Menu principal com os links -->
     <nav>
       <div class="menuprincipal">
-        <div class="logo"><a href="#">J. Salomão</a></div>
-        <label for="check" class="checkbox">
-          <i class="ri-menu-line"></i>
-        </label>
-        <input type="checkbox" name="check" id="check" />
+        <div class="logo"><a href="./index.html">J. Salomão</a></div>
+        <div class="menu-icon" onclick="toggleMenu()">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
         <ul>
           <li><a href="./index.html">Início</a></li>
           <li><a href="./sobre.html">Sobre Mim</a></li>
@@ -36,8 +37,9 @@
             Entre em contato para mais informações
           </h1>
           <p class="descricao">
-            Você pode entrar em contato comigo através do e-mail j.englersalomao@gmail.com <br>
-            ou através do WhatsApp (51)99550-2054.
+            Você pode entrar em contato comigo através do e-mail j.englersalomao@gmail.com<br>
+            ou através do <span><a href="https://api.whatsapp.com/send?phone=5551995502054&text=Ol%C3%A1,%20Jo%C3%A3o%20Vitor.%20Gostaria%20de%20falar%20com%20voc%C3%AA%20a%20respeito%20da%20sua%20carreira%20de%20desenvolvedor.
+              ">WhatsApp (51)99550-2054</a></span>.
           </p>
 
           <!-- Formulário solicitando nome, e-mail e mensagem -->
@@ -62,4 +64,12 @@
       </div>
     </section>
   </body>
+
+  <!-- Script para mostrar itens no menu hambúrguer -->
+  <script>
+    function toggleMenu() {
+      var menu = document.querySelector('.menuprincipal ul');
+      menu.classList.toggle('show');
+    }
+  </script>
 </html>

@@ -9,10 +9,15 @@
   </head>
 
   <body>
-    <!-- Menu principal com os links -->
+    <!-- Menu principal com os links e definição do menu hambúrguer para mobile  -->
     <nav>
       <div class="menuprincipal">
-        <div class="logo"><a href="#">J. Salomão</a></div>
+        <div class="logo"><a href="./index.html">J. Salomão</a></div>
+        <div class="menu-icon" onclick="toggleMenu()">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
         <ul>
           <li><a href="./index.html">Início</a></li>
           <li><a href="./sobre.html">Sobre Mim</a></li>
@@ -53,4 +58,12 @@
       </div>
     </section>
   </body>
+
+  <!-- Script para mostrar itens no menu hambúrguer -->
+  <script>
+    function toggleMenu() {
+      var menu = document.querySelector('.menuprincipal ul');
+      menu.classList.toggle('show');
+    }
+  </script>
 </html>

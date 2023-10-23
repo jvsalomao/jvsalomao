@@ -12,11 +12,12 @@
     <!-- Menu principal com os links -->
     <nav>
       <div class="menuprincipal">
-        <div class="logo"><a href="#">J. Salomão</a></div>
-        <label for="check" class="checkbox">
-          <i class="ri-menu-line"></i>
-        </label>
-        <input type="checkbox" name="check" id="check" />
+        <div class="logo"><a href="./index.html">J. Salomão</a></div>
+        <div class="menu-icon" onclick="toggleMenu()">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
         <ul>
           <li><a href="./index.html">Início</a></li>
           <li><a href="./sobre.html">Sobre Mim</a></li>
@@ -43,7 +44,7 @@
         <!-- Botões para a página de contato e portfolio -->
           <div class="buttons">
             <a href="./contato.html"><button class="btn_esq">Contato</button></a>
-            <a href="./sobre.html"><button class="btn_dir">Sobre Mim</button></a>
+            <a href="./index.html"><button class="btn_dir">Início</button></a>
           </div>
         </div>
 
@@ -54,4 +55,12 @@
       </div>
     </section>
   </body>
+
+  <!-- Script para mostrar itens no menu hambúrguer -->
+  <script>
+    function toggleMenu() {
+      var menu = document.querySelector('.menuprincipal ul');
+      menu.classList.toggle('show');
+    }
+  </script>
 </html>
