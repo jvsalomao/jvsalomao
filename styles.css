@@ -1,0 +1,289 @@
+
+/* Método utilizado para importar fontes do Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+/* Seleciona o elemento HTML para setar as cores padrão da página e define a largura máxima */
+:root {
+  --primary-color: #5e4279;
+  --primary-color-dark: #6509bb;
+  --secondary-color: #5e4279;
+  --text-dark: #1f2937;
+  --text-light: #6b7280;
+  --extra-light: #f0f0f0;
+  --max-width: 1200px;
+}
+
+/* Seletor universal da página para zerar o padding, margin e definir o box-sizing da página */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/* Tira a decoração dos links */
+a {
+  text-decoration: none;
+}
+
+
+/* Define a fonte Poppins e a sans-serif como alternativa */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Personalização do menu principal com os links das páginas */
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  z-index: 99;
+}
+
+/* Personalização e espaçamento dos itens do menu */
+
+.menuprincipal {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Personaliza o link utilizado como logo no canto esquerdo da página */
+nav .logo a {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  transition: 0.3s;
+}
+nav .logo a:hover {
+  color: var(--primary-color-dark);
+}
+
+nav .checkbox {
+  display: none;
+}
+
+nav input {
+  display: none;
+}
+nav .checkbox i {
+  font-size: 2rem;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  transition: left 0.3s;
+}
+
+/* Personalização dos links das páginas e das bordas quando passar o mouse por cima */
+
+ul li a {
+  padding: 0.5rem 1rem;
+  border: 2px solid transparent;
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--text-dark);
+  transition: 0.3s;
+}
+
+ul li a:hover {
+  border-top-color: var(--secondary-color);
+  border-bottom-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+/* Define a cor de fundo da section de conteúdo */
+
+.section {
+  background-color: var(--extra-light);
+}
+
+/* Formatação dos elementos contidos no container de conteúdo */
+
+.container {
+  min-height: 100vh;
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+
+/* Utiliza o display flex para centralizar os elementos */
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Personaliza a subheadline presente na página */
+
+.subhead {
+  letter-spacing: 2px;
+  color: var(--text-light);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* Personaliza a headline */
+
+.headline {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
+/* Utiliza o span para dar um realce em uma parte do texto */
+
+.headline span {
+  font-weight: 600;
+}
+
+/* Personaliza a parte do texto das páginas */
+
+.descricao {
+  line-height: 1.5rem;
+  color: var(--text-light);
+  margin-bottom: 2rem;
+}
+
+/* Utiliza o display flex para formatar a posição dos botões */
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Personaliza os botões, bordas e cursor */
+
+.buttons button {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 1rem 2rem;
+  outline: none;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/* Define as cores normais do botão da esquerda e quando estiver em hover */
+
+.btn_esq {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.btn_esq:hover {
+  background-color: var(--primary-color-dark);
+}
+
+/* Define as cores normais do botão da direita e quando estiver em hover */
+
+.btn_dir {
+  color: var(--primary-color);
+}
+
+.btn_dir:hover {
+  background-color: var(--primary-color-dark);
+  color: #ffffff;
+}
+
+/* Utiliza o display grid para centralizar a foto */
+
+.image {
+  display: grid;
+  place-items: center;
+}
+
+/* Seta o tamanho da imagem e arredonda as bordas */
+
+.image img {
+  width: min(25rem, 90%);
+  border-radius: 100%;
+}
+
+/* Personalização do formulário */
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: #333;
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--primary-color-dark);
+}
+
+/* Método encontrado para tornar o site responsivo para larguras menores que 750px */
+@media (width < 750px) {
+  nav .checkbox {
+    display: block;
+  }
+
+  ul {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 85px);
+    left: -100%;
+    top: 85px;
+    background-color: var(--extra-light);
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  nav #check:checked ~ ul {
+    left: 0;
+  }
+
+  ul li a {
+    font-size: 1.25rem;
+  }
+
+  .container {
+    padding: 10rem 1rem 5rem 1rem;
+    text-align: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .image {
+    grid-area: 1/1/2/2;
+  }
+
+  .buttons {
+    margin: auto;
+  }
+}
