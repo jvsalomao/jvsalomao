@@ -1,6 +1,9 @@
 # Hello!
 
 Welcome to my GitHub repository! I'm João Vitor Salomão, a student of Analysis and Development of Systems, an entrepreneur in the field of intellectual property, a licensed lawyer with OAB/RS and a graduate in Law from PUCRS. Currently refocusing on the technology market, I am eager to embark on my career as a Full Stack Developer.
+
+<a href="https://jvsalomao.github.io/portfolio-4474517/index.html" target="_blank">You can access my portfolio here.</a>
+
 # Experience
 
 - <b><i>JSPI Marcas — Intellectual Property</i></b>
