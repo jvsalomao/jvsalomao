@@ -54,7 +54,7 @@ Welcome to my GitHub page! I'm João Vitor Salomão, a student of Analysis and D
 # Extracurricular Courses
 
 - Foundations (HTML, CSS, JavaScript) — The Odin Project
-- The Complete 2023 Web Development Bootcamp (HTML, CSS, JS, Node.js, React, MongoDB) — Dra. Angela Yu [In Progress]
+- The Complete Web Development Bootcamp (HTML, CSS, JS, Node.js, React, MongoDB) — Dra. Angela Yu [In Progress]
 - CS50x — Harvard edX [In Progress]
 - Princípios de Desenvolvimento Ágil de Software — ITA Coursera [In Progress]
 - Leadership in Practice — Fundação Estudar
