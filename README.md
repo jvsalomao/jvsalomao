@@ -1,8 +1,8 @@
 # Hello!
 
-Welcome to my GitHub repository! I'm João Vitor Salomão, a student of Analysis and Development of Systems, an entrepreneur in the field of intellectual property, a licensed lawyer with OAB/RS and a graduate in Law from PUCRS. Currently refocusing on the technology market, I am eager to embark on my career as a Full Stack Developer.
+Welcome to my GitHub page! I'm João Vitor Salomão, a student of Analysis and Development of Systems, an entrepreneur in the field of intellectual property and a graduate in Law from PUCRS. Right now, I'm shifting my focus to the tech industry and excited to explore areas such as full stack development, data science, and cloud computing.
 
-<a href="https://jvsalomao.github.io/portfolio-4474517/index.html" target="_blank">You can access my portfolio here.</a>
+<a href="https://jvsalomao.github.io/jvsalomao/index.html" target="_blank">You can access my portfolio here.</a>
 
 # Experience
 
@@ -54,12 +54,11 @@ Welcome to my GitHub repository! I'm João Vitor Salomão, a student of Analysis
 # Extracurricular Courses
 
 - Foundations (HTML, CSS, JavaScript) — The Odin Project
-- The Complete 2023 Web Development Bootcamp (HTML, CSS, JS, Node.js, React, MongoDB, Web3, DApps) — Dra. Angela Yu [In Progress]
-- Techniques of Invasion (Python, Kali Linux, Burp Suite, Web Hacking) — Bruno Fraga [In Progress]
+- The Complete 2023 Web Development Bootcamp (HTML, CSS, JS, Node.js, React, MongoDB) — Dra. Angela Yu [In Progress]
+- CS50x — Harvard edX [In Progress]
+- Princípios de Desenvolvimento Ágil de Software — ITA Coursera [In Progress]
 - Leadership in Practice — Fundação Estudar
-- Software: How and Why to Register — INPI
-- General Course on Intellectual Property — INPI
-- Law for Startups: Business Environment Risks — PUCRS
+- General Course on Intellectual Property — INPI & WIPO
 
 # Languages
 
@@ -68,10 +67,6 @@ Welcome to my GitHub repository! I'm João Vitor Salomão, a student of Analysis
 - English - Advanced.
   
 `Upper-intermediate certification in 2013 (England).`
-
-# GitHub Goals
-
-I am thrilled to be here, venturing into the technology realm. My GitHub journey is a reflection of my dedication to becoming a skilled Full Stack Developer. Feel free to explore my projects, provide feedback, and let's connect to discuss potential collaborations.
 
 Looking forward to the exciting possibilities ahead!
 
